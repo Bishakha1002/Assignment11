@@ -31,7 +31,7 @@ public class ChromeCaseStudy11 {
 
     	driver.findElement(By.id("username")).sendKeys("username");
 
-        driver.findElement(By.id("password")).sendKeys("7979798798");
+        driver.findElement(By.id("password")).sendKeys("7667409916");
 
         driver.findElement(By.name("action")).click();
 
@@ -41,7 +41,7 @@ public class ChromeCaseStudy11 {
         driver.findElement(By.xpath("//button[@class='MyHBNewLoyalty-module_container__XtY9q']\"))\r\n")).click();
 
         // Intentionally fail
-        Assert.assertEquals("Devansh", "Bajpai");
+        Assert.assertEquals("Bishakha", "Bharti");
     }
 
     @AfterMethod
